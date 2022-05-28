@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Gentium Basic", serif;
+}
+body {
+  font-size: 20px;
+  background: url("https://www.wallpapertip.com/wmimgs/238-2389876_wallpaper-de-game-of-thrones.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #000;
+}
+li p {
+  padding: 12px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  text-align: center;
+  color: white;
+}
+li {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  border: solid 12px #fff;
+  background: #fff;
+  box-shadow: 0 0 15px 0px #555;
+  transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+li:hover {
+  top: 0px;
+  /* opacity: 0.5; */
+}
+
+li:nth-child(1) {
+  transform: rotate(10deg);
+}
+
+li:nth-child(2) {
+  transform: rotate(0deg);
+}
+
+li:nth-child(3) {
+  transform: rotate(-10deg);
+}
+
+li:nth-child(4) {
+  transform: rotate(20deg);
+}
+
+li:nth-child(5) {
+  transform: rotate(0deg);
+}
+li:nth-child(6) {
+  transform: rotate(20deg);
+}
+
+li:nth-child(7) {
+  transform: rotate(20deg);
+}
+p {
+  margin: -15px 0 0 0;
+}
